@@ -354,4 +354,15 @@ public class CalculatorTest {
         calculator.clickKey("s");
         assertEquals("-", calculator.getText());
     }
+
+    @Test
+    public void clickVCSTest() {
+        // Just created this to test VCS
+        calculator.clickKey("3");
+        calculator.clickKey("6");
+        calculator.clickKey("3");
+        calculator.clickKey("=");
+        calculator.clickKey("s");
+        assertEquals("-", calculator.getText());
+    }
 }
